@@ -1,0 +1,164 @@
+/* HEADER START */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    border-bottom: 1px solid rgb(86, 86, 86);
+display: flex;
+height: 65px;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px;
+/* HEADER- LEFT */
+}
+.header-left{
+    display: flex;
+    align-items:center;
+    
+    
+}
+header i {
+    font-size: 25px;
+    color: white;
+}
+.header-left h3 {
+    font-size: 27px;
+    color: #FF0F17;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+#FK{ font-size: 10px;}
+
+/* HEADER- CENTER */
+.header-center{
+    display: flex;
+    align-items: center;
+ 
+}
+.header-search{
+border: 1px solid #222222;
+padding: 8px;
+border-radius: 50px;
+display: flex;
+align-items: center;
+width: 300px;
+height: 20px;
+margin-right: 10px;
+
+}
+.header-search input{
+    background-color: #0F0F0F;
+    border: none;
+    outline: none;
+}
+.header-center .bi-search{
+    font-size: 18px;
+   padding-left: 110px;
+   cursor: pointer;
+}
+.header-center .bi-mic{
+background-color: #525151;
+border-radius: 60px;
+padding: 4px;
+}
+/* HEADER-RİGHT */
+.header-right{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+ /* HEADER END */
+.content{
+    display: flex;
+}
+ /* SİDEBAR START */
+
+ .sidebar{
+    height: 100vh;
+    border-right: 1px solid #565656;
+    width: 105px;
+    padding: top 20px;
+
+ }
+
+ .sidebar-item{
+margin-top: 20px;
+ }
+
+ .sidebar-item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  color: white;
+ }
+
+ .sidebar-item a:hover{
+color: #ff0000;
+ }
+
+ .sidebar i{
+    font-size: 20px;
+ }
+
+ .sidebar-item span{
+    font-size: 12px;
+    margin-top: 4px;
+ }
+ /* SİDEBAR END */
+ /* VİDEOS START */
+ .videos{
+    margin: 20px;
+
+ }
+ .video-list{
+    color: white;
+    list-style: none;
+   
+    
+ }
+ .video-image{
+position: relative;
+ }
+ .video-image image{
+    width: 100%;
+ }
+ .video-image span{
+    position: absolute;
+    bottom: 16px ;
+    right:10px;
+    padding: 0 4px;
+    background-color:#0F0F0F;
+    font-size: 12px;
+ }
+
+ .video-texts{
+display: flex;
+flex-direction: column;
+margin-top: 6px;
+row-gap: 4px;
+
+
+ }
+ .video-texts a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+ }
+ .video-texts span{
+    font-size: 13px;
+ }
+ /* VİDEOS END */
